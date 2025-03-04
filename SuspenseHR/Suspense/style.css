@@ -1,0 +1,123 @@
+/* General styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #ff7e83, #fad0c4);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #131212;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 5%;
+  border: 5px solid #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  margin-bottom: 10px;
+}
+
+#name {
+  font-size: 1.8rem;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+#harsh{
+  font-size: 1.8rem;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#countdown {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  background: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Balloon animations */
+.balloons {
+  position: relative;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.balloon {
+  position: absolute;
+  bottom: 0;
+  width: 50px;
+  height: 70px;
+  background: radial-gradient(circle at bottom, #ff6f61, #d9534f);
+  border-radius: 50%;
+  animation: float 6s ease-in-out infinite;
+}
+
+.balloon:after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 20px;
+  background: #fff;
+}
+
+/* Balloon positions */
+.balloon1 {
+  left: 20%;
+  animation-delay: 0s;
+}
+
+.balloon2 {
+  left: 50%;
+  animation-delay: 2s;
+}
+
+.balloon3 {
+  left: 80%;
+  animation-delay: 4s;
+}
+
+/* Float animation */
+@keyframes float {
+  0% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-200px);
+  }
+  100% {
+      transform: translateY(0);
+  }
+}
+
+
+  
+  

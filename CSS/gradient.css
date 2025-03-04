@@ -1,0 +1,31 @@
+.box{
+    border: 1px solid black;
+    height: 200px;
+    width:150px;
+    background-image: linear-gradient(white , rgb(155, 173, 235));
+    
+}
+    
+.box1{
+    border: 1px solid black;
+    height: 200px;
+    width:150px;
+    background-image: linear-gradient(to left, white , rgb(231, 157, 231));
+    
+
+
+}
+.box2{
+    border: 1px solid black;
+    height: 200px;
+    width:150px;
+    background-image: linear-gradient( to right ,white , rgb(187, 174, 231));
+    
+}
+.box3{
+    border: 1px solid black;
+    height: 200px;
+    width:150px;
+    background-image: linear-gradient( to bottom,white , rgb(226, 191, 200));
+    
+}

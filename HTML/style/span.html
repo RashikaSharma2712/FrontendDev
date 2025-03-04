@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+table, td,th,tr{
+     border-collapse: collapse;
+     border :  1px  solid rgb(24, 20, 18);
+     text-align: center;
+    
+}
+</style>
+<body>
+
+    <table>
+        <colgroup>
+            <col span = "4" style = "background-color: rgb(144, 177, 144);">
+            <col span = "2 " style ="visibility: collapse;">
+            <!-- visibiliy of the table is hidden  -->
+
+    </colgroup>
+        <tr>
+            <th rowspan="2" >State of Health</th>
+            <th colspan="2" > Fasting value</th>
+            <th > After Eating</th>
+        </tr>
+        <tr>
+            <td> Minimum</td>
+            <td> Maximum</td>
+            <td> 2 Hours after eating</td>
+        </tr>
+        <tr>
+            <td> healthy</td>
+            <td> 70 </td>
+            <td> 100</td>
+            <td> Less than 140</td>
+        </tr>
+        <tr>
+            <td> Pre diabetic</td>
+            <td> 101</td>
+            <td> 126</td>
+            <td>140 to 200</td>
+        </tr>
+        <tr>
+            <td> Diabetes</td>
+            <td> More than 126</td>
+            <td> N/A</td>
+            <td> More than 200</td>
+        </tr>
+        
+    </table>
+</body>
+</html>

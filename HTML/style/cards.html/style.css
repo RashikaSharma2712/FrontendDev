@@ -1,0 +1,87 @@
+*{
+    margin:0%;
+    padding:0%;
+
+}
+html,body{
+    width:100%;
+    height:100%;
+    background-color: rgb(89, 158, 158);
+}
+main{
+    height:100%;
+    width:100%;
+}
+#card1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height:300px;
+    width:230px;
+    border-style: solid;
+    border-color: black;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 10%;
+    rotate: -12deg;
+}
+#card1:hover{
+    z-index: 50;;
+}
+#card2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height:300px;
+    width:230px;
+    border-style: solid;
+    border-color: black;
+    rotate: -7deg;
+    z-index: 2;
+    border-radius: 10%;
+    overflow: hidden;
+}
+#card2:hover{
+    z-index: 50;
+}
+#card3{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+height:300px;
+width:230px;
+border-style: solid;
+border-color: black;
+
+z-index: 3;
+border-radius: 10%;
+overflow: hidden;
+}
+#card3:hover{
+    z-index: 50;
+}
+#card4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height:300px;
+    width:230px;
+    border-style: solid;
+    border-color: black;
+    rotate: 10deg;
+    z-index: 4;
+    border-radius: 10%;
+    overflow: hidden;
+}
+#card4:hover{
+    z-index: 50;
+}
+img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
